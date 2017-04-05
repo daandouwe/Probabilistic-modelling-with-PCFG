@@ -1,0 +1,23 @@
+[S] ||| [NP] [VP] ||| 1
+[VP] ||| [V] [NP] ||| 1
+[VP] ||| [V] ||| 1
+[VP] ||| [VP] [PP] ||| 1
+[NP] ||| [Det] [N] ||| 1
+[NP] ||| [Name] ||| 1
+[NP] ||| [NP] [PP] ||| 1
+[PP] ||| [P] [NP] ||| 1
+[V] ||| saw ||| 1
+[V] ||| ate ||| 1
+[V] ||| ran ||| 1
+[N] ||| boy ||| 1
+[N] ||| cookie ||| 1
+[N] ||| table ||| 1
+[N] ||| telescope ||| 1
+[N] ||| hill ||| 1
+[Name] ||| Bob ||| 1
+[P] ||| with ||| 1
+[P] ||| under ||| 1
+[Det] ||| the ||| 1
+[Det] ||| a ||| 1
+[Name] ||| Jack ||| 1
+[Det] ||| my ||| 1
