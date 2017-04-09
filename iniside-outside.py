@@ -138,20 +138,15 @@ def plot_EM(corpus, grammar, n, start_sym='[E]'):
         ruled = Rule(rule.lhs, rule.rhs, 1.0)
         d[ruled].append(rule.prob)
     i = 0
-#     while i < n:
-    for i in range(n):
+    while i < n:
         print "round {}".format(i)
         new_grammar = EM(corpus1, grammar, 1, start_sym=start_sym, prin=False)
         for rule in new_grammar:
             ruled = Rule(rule.lhs, rule.rhs, 1.0)
             d[ruled].append(rule.prob)
-#             print "rule {0}, prob {1}, rule-prob {2}".format(rule, d[ruled], rule.prob)
-        
-        grammar = WCFG()
-        for rule in new_grammar:
-            grammar.add(rule)
-#         grammar = new_grammar
-#         i += 1
+       
+        grammar = new_grammar
+        i += 1
         
     for rule, prob in d.iteritems():
         plt.plot(range(n+1), prob)
