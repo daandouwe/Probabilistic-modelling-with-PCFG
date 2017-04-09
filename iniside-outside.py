@@ -150,5 +150,4 @@ def plot_EM(corpus, grammar, n, start_sym='[E]'):
         
     for rule, prob in d.iteritems():
         plt.plot(range(n+1), prob)
-        
     plt.show()
